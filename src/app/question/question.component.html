@@ -1,0 +1,77 @@
+<table class="table">
+  <tbody>
+    <tr *ngFor="let quest of questionList; index as i" id="quest.id">
+      <div class="form-check">
+        <!-- <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1"> -->
+        {{ quest.questionName }}
+        <!-- </label> -->
+      </div>
+
+      <div id="{{ quest.id }}">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="{{ quest.id }}"
+            id="flexRadioDefault1"
+            (input)="quest.selected = quest.option1"
+            (click)="onChangeHandler(quest.option1, i)"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">
+            {{ quest.option1 }}
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="{{ quest.id }}"
+            id="flexRadioDefault2"
+            (input)="quest.selected = quest.option2"
+            (click)="onChangeHandler(quest.option2, i)"
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            {{ quest.option2 }}
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="{{ quest.id }}"
+            id="flexRadioDefault2"
+            (input)="quest.selected = quest.option3"
+            (click)="onChangeHandler(quest.option3, i)"
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            {{ quest.option3 }}
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="{{ quest.id }}"
+            id="flexRadioDefault2"
+            (input)="quest.selected = quest.option4"
+            (click)="onChangeHandler(quest.option4, i)"
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            {{ quest.option4 }}
+          </label>
+        </div>
+      </div>
+
+     
+    </tr>
+
+    <tr>
+      <td>
+        <button type="button" routerLink="/review" class="btn btn-primary">Submit</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

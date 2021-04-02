@@ -1,0 +1,115 @@
+{
+    "questions":[
+
+        {
+            "id":1,
+            "questionName":"What is the capital of India ?",
+            "option1":"Delhi",
+            "option2":"Mumbai",
+            "option3":"Kolkata",
+            "option4":"Chennai",
+            "correct":"Delhi",
+            "selected":""
+        },
+
+        {
+            "id":2,
+            "questionName":"What is the capital of Maharashtra ?",
+            "option1":"Nasik",
+            "option2":"Mumbai",
+            "option3":"Pune",
+            "option4":"Nagpur",
+            "correct":"Mumbai",
+            "selected":""
+        },
+
+        {
+            "id":3,
+            "questionName":"Which of these language is Object Oriented ?",
+            "option1":"C++",
+            "option2":"C",
+            "option3":"Python",
+            "option4":"C#",
+            "correct":"C#",
+            "selected":""
+        },
+        {
+            "id":4,
+            "questionName":"Who is founder of Linux ?",
+            "option1":"Dennis Ritchie",
+            "option2":"Jeff Bezos",
+            "option3":"Bill Gates",
+            "option4":"Linus Trovaldus",
+            "correct":"Linus Trovaldus",
+            "selected":""
+        },
+
+        {
+            "id":5,
+            "questionName":"Which of these is NoSql database?",
+            "option1":"Mongo Db",
+            "option2":"PostGre",
+            "option3":"My SQL",
+            "option4":"Oracle",
+            "correct":"Mongo Db",
+            "selected":""
+        },
+
+        {
+            "id":6,
+            "questionName":"Which of these is DML command in SQL?",
+            "option1":"REVOKE",
+            "option2":"GRANT",
+            "option3":"INSERT",
+            "option4":"SELECT",
+            "correct":"INSERT",
+            "selected":""
+        },
+
+        {
+            "id":7,
+            "questionName":"Which of these is Linear memory data structure?",
+            "option1":"Binary Tree",
+            "option2":"Array",
+            "option3":"Linked List",
+            "option4":"HashTable",
+            "correct":"Array",
+            "selected":""
+        },
+
+        {
+            "id":8,
+            "questionName":"How many bits are there in IPv4 address?",
+            "option1":"28",
+            "option2":"64",
+            "option3":"32",
+            "option4":"128",
+            "correct":"32",
+            "selected":""
+        },
+
+        {
+            "id":9,
+            "questionName":"Who is founder of windows?",
+            "option1":"Bill Gates",
+            "option2":"Steve Jobs",
+            "option3":"Jeff Bezos",
+            "option4":"Elon Musk",
+            "correct":"Bill Gates",
+            "selected":""
+        },
+
+        {
+            "id":9,
+            "questionName":"Which of these is not a JavaScript Framework?",
+            "option1":"Angular",
+            "option2":"Vue",
+            "option3":"Meteor",
+            "option4":"Flask",
+            "correct":"Flask",
+            "selected":""
+        }
+        
+
+    ]
+}

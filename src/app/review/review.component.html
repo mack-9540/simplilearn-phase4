@@ -1,0 +1,38 @@
+
+<table class="table">
+    <tbody>
+      <tr *ngFor="let ans of ansObj; index as i">
+        
+  
+      
+          <div class="form-check">
+            <table>
+                <tr><td>
+            <label class="form-check-label" >
+              The Answer for Question {{i+1}} is {{ans.flag}}.
+            </label>
+        </td>
+        </tr>
+        <tr><td>
+            <label class="form-check-label" >
+                Correct Answer : {{ans.correctAnswer}}
+              </label>
+            </td><td>
+              <label class="form-check-label" >
+                Selected Answer: {{ans.selectedAnswer}}
+              </label>
+            </td>
+            </tr>
+            </table>
+          </div>
+          
+       
+      </tr>
+      <tr>
+        <td>
+          <button type="button" routerLink="/display" class="btn btn-primary">Display Result</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
